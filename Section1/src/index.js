@@ -57,3 +57,11 @@ age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too yo
 //     }
 // }
 
+//Section 2 Part B
+for(let i =0; i < 100; i++){
+    if(i % 2 === 0){ 
+        console.log(`${i} is an even number`);
+    } else {
+        console.log(i);
+    }
+}
