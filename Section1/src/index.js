@@ -32,4 +32,9 @@ console.log(`Hello, my name is ${yourName}`);
   console.log(a + b == c); // note: a < b < c is NOT CORRECT (and is not a valid JS expression, think about using other math operations)
   console.log(a * a == d); // note: the answer is a simple arithmetic equation, not something "weird"
   console.log(48 == '48');
-  
+
+  //Section 1 Part D
+
+  const animal = "cow";
+  animal === "cow" ? console.log("Mooo"): console.log("You no cow");
+
