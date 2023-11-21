@@ -101,3 +101,14 @@ age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too yo
  const quotes = ["My psychiatrist told me I was crazy and I said I want a second opinion. He said okay, youre ugly too.","Republicans have nothing but bad ideas and Democrats have no ideas.", "If it requires a uniform, its a worthless endeavor" ]
 console.log(quotes);
 
+//Section 3 Part C
+const randomThings =[1, 10, "Hello", true]
+
+console.log(randomThings[0]);
+
+randomThings[2] = "World";
+
+console.log(randomThings);
+
+
+//Section 3 Part D
