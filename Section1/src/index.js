@@ -43,3 +43,17 @@ let age = 15;
 
 age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too young.");;
 
+//Section 2 Part A
+// for(let i=0; i <= 10; i++){
+//     console.log(i);
+// }
+// for( let i = 10; i <=400; i++){
+//     console.log(i);
+// }
+
+// for(let i = 12; i <= 4000; i++){
+//     if(i % 3 ===0){ 
+//         console.log(i);
+//     }
+// }
+
