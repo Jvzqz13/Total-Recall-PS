@@ -82,18 +82,22 @@ age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too yo
 // }
 
 //Section 2 Part D
-let bank_account = 0;
- for(let c = 0; c <= 10; c++){
-    //  console.log(c);
-     bank_account += c;
- }
-console.log(`Your bank has $${bank_account}`);
 
-let bonus = 0;
-for(let d = 0; d <= 100; d++){
-     bonus += d * 2;
+// let bank_account = 0;
+//  for(let c = 0; c <= 10; c++){
+//     //  console.log(c);
+//      bank_account += c;
+//  }
+// console.log(`Your bank has $${bank_account}`);
 
- } 
- console.log(`Your bank account now has $${bonus}`);
+// let bonus = 0;
+// for(let d = 0; d <= 100; d++){
+//      bonus += d * 2;
+//  } 
+//  console.log(`Your bank account now has $${bonus}`);
 
- 
+ //Section 3 Part B
+
+ const quotes = ["My psychiatrist told me I was crazy and I said I want a second opinion. He said okay, youre ugly too.","Republicans have nothing but bad ideas and Democrats have no ideas.", "If it requires a uniform, its a worthless endeavor" ]
+console.log(quotes);
+
