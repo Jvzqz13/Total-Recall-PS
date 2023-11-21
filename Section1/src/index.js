@@ -33,8 +33,13 @@ console.log(`Hello, my name is ${yourName}`);
   console.log(a * a == d); // note: the answer is a simple arithmetic equation, not something "weird"
   console.log(48 == '48');
 
-  //Section 1 Part D
+//Section 1 Part D
 
   const animal = "cow";
   animal === "cow" ? console.log("Mooo"): console.log("You no cow");
+
+//Section 1 Part E
+let age = 15;
+
+age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too young.");;
 
