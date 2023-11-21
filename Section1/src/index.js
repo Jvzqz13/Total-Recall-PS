@@ -44,24 +44,40 @@ let age = 15;
 age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too young.");;
 
 //Section 2 Part A
-// for(let i=0; i <= 10; i++){
-//     console.log(i);
+
+// for(let a=0; a <= 10; a++){
+//     console.log(a);
 // }
-// for( let i = 10; i <=400; i++){
-//     console.log(i);
+// for( let a = 10; a <=400; a++){
+//     console.log(a);
 // }
 
-// for(let i = 12; i <= 4000; i++){
-//     if(i % 3 ===0){ 
-//         console.log(i);
+// for(let a = 12; a <= 4000; a++){
+//     if(a % 3 ===0){ 
+//         console.log(a);
 //     }
 // }
 
 //Section 2 Part B
-for(let i =0; i < 100; i++){
-    if(i % 2 === 0){ 
-        console.log(`${i} is an even number`);
-    } else {
-        console.log(i);
+
+// for(let b =0; b < 100; b++){
+//     if(b % 2 === 0){ 
+//         console.log(`${b} is an even number`);
+//     } else {
+//         console.log(b);
+//     }
+// }
+
+//Section 2 Part C
+for(let i =0; i <= 100; i++){
+    if(i % 5 === 0){ 
+        console.log(`I found a ${i}. High Five` );
+    } else if (i % 3 === 0) { 
+        console.log(`I found a ${i}. Three is a crowd.`);
+    } 
+    if (i % 5 === 0 && i % 3 === 0) {
+        console.log(`${i} is divisble by both`);
     }
 }
+
+
