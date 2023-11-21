@@ -69,15 +69,31 @@ age >= 16 ? console.log("Here are the Keys!") : console.log("Sorry, youre too yo
 // }
 
 //Section 2 Part C
-for(let i =0; i <= 100; i++){
-    if(i % 5 === 0){ 
-        console.log(`I found a ${i}. High Five` );
-    } else if (i % 3 === 0) { 
-        console.log(`I found a ${i}. Three is a crowd.`);
-    } 
-    if (i % 5 === 0 && i % 3 === 0) {
-        console.log(`${i} is divisble by both`);
-    }
-}
 
+// for(let i =0; i <= 100; i++){
+//     if(i % 5 === 0){ 
+//         console.log(`I found a ${i}. High Five` );
+//     } else if (i % 3 === 0) { 
+//         console.log(`I found a ${i}. Three is a crowd.`);
+//     } 
+//     if (i % 5 === 0 && i % 3 === 0) {
+//         console.log(`${i} is divisble by both`);
+//     }
+// }
 
+//Section 2 Part D
+let bank_account = 0;
+ for(let c = 0; c <= 10; c++){
+    //  console.log(c);
+     bank_account += c;
+ }
+console.log(`Your bank has $${bank_account}`);
+
+let bonus = 0;
+for(let d = 0; d <= 100; d++){
+     bonus += d * 2;
+
+ } 
+ console.log(`Your bank account now has $${bonus}`);
+
+ 
