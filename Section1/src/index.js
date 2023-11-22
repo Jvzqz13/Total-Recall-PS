@@ -112,3 +112,18 @@ console.log(randomThings);
 
 
 //Section 3 Part D
+const ourClass =["Salty","Zoom", "Sardine", "Slack","GitHub"]
+
+console.log(ourClass[2]);
+
+ourClass[4] = "Octocat"
+ourClass.push = "Cloud City"
+console.log(ourClass);
+
+//Section 3 Part E
+
+const myArray = [5, 10, 500, 20]
+
+myArray.push("Aegon","Home")
+
+console.log(myArray);
