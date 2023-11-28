@@ -127,3 +127,63 @@ const myArray = [5, 10, 500, 20]
 myArray.push("Aegon","Home")
 
 console.log(myArray);
+myArray.unshift("Bob Marley");
+
+myArray.splice(3,1)
+console.log(myArray);
+
+myArray.reverse()
+console.log(myArray);
+
+//Section 3 Part F
+
+let x = 3;
+
+if( x < 100){
+  console.log("little number");
+} else if (x > 100){
+ console.log("big number");
+}
+
+//Section 3 Part G
+
+if( x < 5){
+  console.log("little number");
+} else if(x > 10){
+  console.log("big number");
+} else {
+  console.log("monkey");
+}
+
+//Section 3 Part H
+
+//come back to this one
+
+//Section 4 Part A
+
+function printGreeting(userName){
+  console.log(`Hello there, ${userName}!`);
+}
+printGreeting("Slimer");
+
+//Section 3 Part B
+
+function printCool(firstName){
+  console.log(`${firstName}, is cool!`);
+}
+printCool("Slimer");
+
+//Section 3 Part C
+function calculateCube (num){
+  console.log( num * num * num);
+}
+calculateCube(5);
+
+//Section 3 Part D
+
+function isVowelthat(vowel){
+
+    vowel = vowel.toLowerCase();
+    return ['a', 'e','i', 'o', 'u'].includes(vowel);
+}
+console.log(isVowelthat("b"));
