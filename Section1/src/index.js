@@ -166,24 +166,78 @@ function printGreeting(userName){
 }
 printGreeting("Slimer");
 
-//Section 3 Part B
+//Section 4 Part B
 
 function printCool(firstName){
   console.log(`${firstName}, is cool!`);
 }
 printCool("Slimer");
 
-//Section 3 Part C
+//Section 4 Part C
 function calculateCube (num){
   console.log( num * num * num);
 }
 calculateCube(5);
 
-//Section 3 Part D
+//Section 4 Part D
 
 function isVowelthat(vowel){
 
     vowel = vowel.toLowerCase();
     return ['a', 'e','i', 'o', 'u'].includes(vowel);
 }
-console.log(isVowelthat("b"));
+console.log(isVowelthat("a"));
+
+//Section 4 Part E
+
+const string1 = 'Hank'
+const string2 = 'Hippopopalous'
+
+function getTwoLengths(str1, str2) {
+  const lengthArr = []
+
+  lengthArr.push(str1.length) 
+  lengthArr.push(str2.length)
+
+   return lengthArr;
+
+}
+
+console.log(getTwoLengths(string1, string2));
+
+//Section 4 Part F
+
+const stringArr = ['hello', 'what', 'is', 'up', 'dude']
+
+function GetMultipleLengths([arr]) {
+  // console.log(arr);
+  const multiArry = []
+
+  arr.forEach(elem => { 
+    multiArry.push(elem.length)
+  });
+
+  return multiArry;
+}
+
+console.log(GetMultipleLengths([stringArr]));
+
+//Section 4 Part G
+
+
+const fNum = 89;
+const sNum = 888;
+const tNum = 9876;
+
+function maxOfThree(num1, num2, num3){
+const largest = Math.max(num1, num2, num3)
+return largest
+}
+
+function minOfThree(num1, num2, num3){
+  const smallest = Math.min(num1, num2, num3)
+  return smallest;
+  }
+
+console.log(maxOfThree(fNum, sNum, tNum));
+console.log(minOfThree(fNum, sNum, tNum));
